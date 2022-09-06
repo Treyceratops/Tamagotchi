@@ -13,17 +13,18 @@ Tamagotchi User Stories:
 
 Tamagotchi Psudocode:
 
-<!-- -add html elements to display pet's state (hunger, sleepy, and boredom levels)
--add html elements for buttons
--add html elements for pet -->
-<!-- -create app's state variables for pet's state -->
-<!-- -cache elements for pet's state & buttons -->
-<!-- -add event listeners for buttons -->
-<!-- -create game initialization that sets pet's state -->
-<!-- -render pet's state by dynamically creating html elements to display so -->
--add asynchronous function that adds 1 to pet's state every x amount of time
--create function to delete one from corresponding pets state when button is clicked
--if any pet's state's reach 20 prompt that your pet dies
+<!-- -add html elements (divs) to display pet's state (hunger, sleepy, and boredom levels) with classes
+-add html elements for buttons with classes
+-add an empty div element for pet with class
+-create app's state variables for pet's state ie. let hunger = '';
+-cache elements for pet's state & buttons (querySelect by class)
+-add event listeners for buttons (will make function as 2nd parameter to subtract 1 from pet's state)
+-create game initialization that sets pet's state ie. hunger = 0;
+-render pet's state by dynamically creating html elements to display so ie. hungerDiv.innertext = hunger;  -->
+<!-- -add asynchronous function that adds 1 to pet's state every x amount of time -->
+<!-- -create function to delete one from corresponding pets state when button is clicked -->
+<!-- -if any pet's state's reach 20 prompt that your pet dies -->
+-stop game and replay if pet dies
 -create "would you like to play" prompt with instructions
 -render a pet
 -icebox: add pet age and intermediate evolution if you reach age 4 and advanced evolution if you reach age 9
