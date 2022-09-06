@@ -1,0 +1,11 @@
+Tamagotchi User Stories:
+-as a player i want to see instructions at start of game
+-as a player i wanna have buttons that interact with the tamagotchi
+-as a player i want to see information that displays my pets boredom, hunger, age,  and sleep levels
+-as player i wanna be able to play with my pet when it is bored
+-as a player i wanna be able to feed my pet when it’s hungry
+-as a player i wanna be able to let my pet sleep when it is tired
+-as a player i wanna see my pet die if it is neglected (hunger, boredom, or sleepiness >= 20)
+-as a player i want to see the day change after x amount of time
+-as a player i want to see my pet get older as the days pass
+-as a player i want to see my pet evolve after 4 days to intermediate stage & after 5 more days to advanced stage
